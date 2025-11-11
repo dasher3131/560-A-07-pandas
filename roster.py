@@ -2,5 +2,6 @@
 import pandas as pd
 
 roster = ["Evans", "High", "Brown"]
-data = pd.DataFrame(roster)
+player = {"Last Name": roster}
+data = pd.DataFrame(player)
 print(data)
